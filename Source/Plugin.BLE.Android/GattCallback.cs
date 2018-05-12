@@ -111,7 +111,7 @@ namespace Plugin.BLE.Android
                     else
                     {
                         //ToDo explore this
-                        //only for on auto-reconnect (device is not in operation registry)
+                        //only for on auto-reconnect (device operation was not triggered by user)
                         _device.Update(gatt.Device, gatt);
                     }
 
